@@ -169,7 +169,9 @@ body {
 #temperature {
 
     display: flex;
-   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     font-size: 94px;
     font-family: "Roboto", sans-serif;
     color: #F2F2F2;
