@@ -169,6 +169,7 @@ body {
 #temperature {
 
     display: flex;
+    text-align: center;
     font-size: 94px;
     font-family: "Roboto", sans-serif;
     color: #F2F2F2;
@@ -178,13 +179,7 @@ body {
 
 #temperature2 {
 
-    display: flex;
-    margin-top: -20px;
-    padding-left: 120px;
-    font-size: 44px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    color: #F2F2F2;
+ 
 
 
 }
@@ -254,4 +249,72 @@ body {
     100% {
         transform: rotate(360deg);
     }
+}
+
+@media(max-width: 900px){
+
+    body {
+
+        background-color: #D7D2F1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding-top: 50px;
+
+    }
+    .location-svg{
+
+        display: flex;
+        height: 20px;
+        width: 20px;
+        margin-top: -23px;
+        margin-left: 60px;
+
+    }
+    #temperature {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 94px;
+        font-family: "Roboto", sans-serif;
+        color: #F2F2F2;
+        font-weight: 700;
+        padding-left: 40px;
+    
+    }
+
+    #contenedor {
+
+        display: none;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 90%;
+        height: 100%;
+    
+    }
+    
+    
+    
+    .fondo {
+    
+        display: flex;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+        border-radius: 35px;
+        background: rgb(20, 188, 247);
+        background: linear-gradient(180deg, rgba(20, 188, 247, 1) 60%, rgba(19, 112, 242, 1) 100%);
+        box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.15);
+    
+    }
+
+
 }
