@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Clima</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <script src='index.js'></script>
+</head>
+
+<body onload="onLoad()">
+    <div id="contenedor">
+        <div class="fondo">
+        <div class="contenedor2">
+            <div id="location" ></div><div class="location-svg"><img src="svg/location.svg"/></div>
+            <div class="reload"><a href="#index.html"  onclick="location.reload()">Update</a></div>
+            <div id="clima"></div>
+            <div id="temperature2">
+                
+                <div id="temperature"></div>
+            </div>
+            <div id="description"></div>
+            <div id="date"></div>
+        </div>
+   
+            <hr class="separate">
+        <div class="contenedor3">
+            <div class="informacion">
+                <div class="humidity-svg"><img src="svg/humedad.svg"/></div>
+                <div id="humidity"></div>
+                Humedad 
+            </div>
+            <div class="informacion">
+                <div class="presion-svg"><img src="svg/presion.svg"/></div>
+                <div id="pressure"></div>
+                Presión
+            </div>
+        </div>
+    </div>
+    </div>
+    <span id="loader"></span>
+
+</body>
+
+</html>

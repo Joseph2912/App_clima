@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #D7D2F1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    height: 100dvh;
+
+}
+
+#contenedor {
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: 400px;
+    margin-top: 0px;
+
+}
+
+
+
+.fondo {
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 35px;
+    background: rgb(20, 188, 247);
+    background: linear-gradient(180deg, rgba(20, 188, 247, 1) 60%, rgba(19, 112, 242, 1) 100%);
+    box-shadow: 0px 25px 80px rgba(0, 0, 0, 0.15);
+
+}
+
+.contenedor2#sol {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.separate{
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    opacity: 50%;
+
+}
+
+
+.contenedor3 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+
+
+
+}
+.reload{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    width: auto;
+    height: auto;
+    margin-top:10px;
+    
+
+}
+
+.reload a{
+
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #F2F2F2;
+    border: whitesmoke 1px solid;
+    border-radius: 25px;
+    font-style: none;
+    text-decoration: none;
+
+}
+
+#location {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #F2F2F2;
+}
+.location-svg{
+
+    display: flex;
+    height: 20px;
+    width: 20px;
+    margin-top: -23px;
+    margin-left: 80px;
+    
+
+}
+.presion-svg{
+
+    display: flex;
+    height: 20px;
+    width: 20px;
+    padding-bottom: 5px;
+
+}
+.humidity-svg{
+    display: flex;
+    height: 20px;
+    width: 20px;
+    padding-bottom: 5px;
+
+}
+
+#description {
+
+    font-size: 28px;
+    font-family: "Roboto", sans-serif;
+    color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin-top: -10px;
+    font-weight: 400;
+    margin-left: 0px;
+
+}
+
+#humidity {
+
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    color: #F2F2F2;
+
+}
+
+#pressrure {
+
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    color: #F2F2F2;
+
+}
+
+#temperature {
+
+    display: flex;
+    font-size: 94px;
+    font-family: "Roboto", sans-serif;
+    color: #F2F2F2;
+    font-weight: 700;
+
+}
+
+#temperature2 {
+
+    display: flex;
+    margin-top: -20px;
+    padding-left: 120px;
+    font-size: 44px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #F2F2F2;
+
+
+}
+
+#date {
+
+    display: flex;
+    font-size: 13px;
+    font-family: "Roboto", sans-serif;
+    color: #F2F2F2;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    margin-top: 0px;
+
+}
+
+.informacion {
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 13px;
+    font-family:  "Roboto", sans-serif;
+    color: #F2F2F2;
+    padding-top: 10px;
+    font-weight: 700;
+    opacity: 60%;
+}
+
+#clima {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* background-image: url(svg/sol.svg);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    height: 200px;
+    filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.2));
+
+
+
+}
+
+#loader {
+
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border: 5px solid #fff;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
